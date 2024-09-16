@@ -1,0 +1,73 @@
+.hero-section {
+    background: url('./images/1720x564_Dec22_Article_1-scaled.jpg') no-repeat center center;
+    background-size: cover
+}
+/* Set the height of the hero section to cover the viewport */
+.hero-section {
+    background-image: url(./images/1720x564_Dec22_Article_1-scaled.jpg); /* Replace with the image you want */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+}
+
+.hero-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.highlight {
+    color: #FFC107; /* Yellow color */
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn-outline-light {
+    border: 2px solid#FFC107 ;
+}
+
+.hero-buttons .btn-warning {
+    background-color: #FFC107;
+    color: white;
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    color: #FFC107;
+    margin-left: 20px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
